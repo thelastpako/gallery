@@ -1,0 +1,46 @@
+.img-fluid{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.offcanvas-aside {
+    background: #fed136;
+    
+}
+
+.btn-info {
+    font-weight: 700;
+    color: white;
+    border-color: red;
+    background-color: #001b4c;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-info {
+    font-weight: 700;
+    color: white;
+    border-color: #f4e8d5;
+    background-color: #001b4c;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+i.fa.fa-shopping-cart.fa-stack-1x.fa-inverse {
+    content: url(../img/content/spoon.png);
+}
+
+.fa-laptop {
+    content: url(../img/content/clown.png);
+    margin-top: 20px;
+}
+
+.fa-lock {
+    content: url(../img/content/horse.png);
+}
+
+.desc{
+    font-weight: bold;
+}

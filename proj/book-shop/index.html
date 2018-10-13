@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body onload="init()">
+    <header>
+        <h1>Welcome to Plombooks</h1>
+    </header>
+    <table class="table table-striped">
+        </tbody>
+    </table>
+
+    <div class="paging">
+        <section class="paging-section">
+            <button class="btn" onclick="onGoLastPage()"><<</button>
+            <button class="btn" onclick="onPageNum(1)">1</button>
+            <button class="btn" onclick="onPageNum(2)">2</button>
+            <button class="btn" onclick="onPageNum(3)">3</button>
+            <button class="btn" onclick="onGoNextPage()">>></button>
+        </section>
+    </div>
+
+
+    <div class="new-book">
+        <button class="btn open-new-section" onclick="onOpenSection()">Add new title</button>
+        <section class="add-book-container">
+            <input id="newTitle" type="text" placeholder="Title Name" />
+            <input id="newPrice" type="text" placeholder="Price of title" />
+            <input id="newImg" type="text" placeholder="Put link to image" />
+            <button class="btn" onclick="onReadAndAddNewBook()">Add</button>
+        </section>
+    </div>
+    <div id="myModal" class="modal">
+    <div class="card text-white bg-info mb-3"></div>
+</div>
+    <script src="lib/jquery.js"></script>
+    <script src="js/book-service.js"></script>
+    <script src="js/util-service.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

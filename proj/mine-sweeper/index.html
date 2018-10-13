@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+
+<body onload="setBoardSize(4)">
+  <header>Welcome to MineSweeper<img src="img/MineSweeper.png"></header>
+  <div class="container">
+
+    <div class="difficultis">
+      <button class="easy" onclick="setBoardSize(4)">Easy</button>
+      <button class="medium" onclick="setBoardSize(6)">Medium</button>
+      <button class="hard" onclick="setBoardSize(8)">Hard</button>
+    </div>
+    <!-- CR: Missing a 's', but it didn't change the UI. -->
+    <div class="playground">
+      <!-- CR: next line is not indent.
+        use 'cursor: pointer' on the img.
+        You don't run init() on load, so better name is reset(). -->
+      <div class="menu"><span class="flags"></span><img onclick="reset()"><span class="time"></span></div>
+      <table>
+        <tbody class="board"></tbody>
+      </table>
+      <div class="record">Best time:<span></span></div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

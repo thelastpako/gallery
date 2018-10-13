@@ -1,0 +1,46 @@
+body {background-color: black; color:white}
+
+.cell {width:60px; height:60px;text-align: center}
+.cell img {width:40px; height:auto}
+.floor {background-color: gray}
+.wall {background-color: brown}
+
+.container{
+    width:100%;
+    text-align: center;
+}
+
+.board {
+    text-align: center;
+}
+
+.balls-counter {
+    font-weight: bold;
+    width: 251px;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 11px;
+    text-align: left;
+}
+
+.restart{
+    display: none;
+    width: 129px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(211, 33, 33);
+    color: white;
+    border-radius: 15px;
+    margin:0 auto;    
+
+}
+
+.restart:hover{
+    background-color: rgb(255, 69, 69);
+}
+
+.playground{
+    display: inline-block;
+}

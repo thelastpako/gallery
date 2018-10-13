@@ -1,0 +1,115 @@
+body{
+  background-color: gray;
+}
+
+.cell img {
+  width:30px; 
+  height:30px; 
+}
+
+.menu0{
+  font-size: 40px;
+  display: inline-block;
+}
+.menu2{
+  font-size: 40px;
+  display: inline-block;
+}
+
+
+.cell {
+  display: inline-block;
+  width:30px; 
+  height:30px; 
+  transition: .3s;
+  background: rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+header img{
+  width:30px; 
+  height:30px; 
+}
+
+header{
+font: 600 1.5em/1 'Raleway', sans-serif;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: .5em;
+width: 100%;
+padding-bottom: 20px;
+}
+
+.container{
+  text-align: center;
+  background-color: #c1c1c1;
+  border-radius: 10%;
+  margin: 0 auto;
+  width: 600px;
+  height: 450px;
+  }
+
+.difficultis{
+  margin:0 auto;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+.playground{
+  display: inline-block;
+}
+
+table {
+  margin:0 auto;
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
+
+.win{
+  font-size: 40px;
+}
+
+.menu img{
+  width:25px; 
+  height:25px; 
+  padding-right: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+.menu .flags{
+  padding-right: 40px;
+  font-family: cursive;
+}
+
+.menu .time{
+  font-family: cursive;
+}
+
+button{
+  margin: 0 auto;
+  width: 154px;
+  height: 38px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 12px;
+  color: white;
+  text-shadow: -1px 0 black, 0 2px black, 1px 0 black, 0 -1px black;
+  background-color: rgb(173, 30, 30);
+  border: 1px solid rgb(0, 0, 0);
+  display: inline-block;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: rgb(246, 35, 35);
+}
+
+.mine{
+  background-color: red;
+}
+
+.cellzero{
+  background-color:rgb(185, 185, 185);
+}
